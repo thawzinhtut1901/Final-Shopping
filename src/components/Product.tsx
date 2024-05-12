@@ -3,7 +3,7 @@ import { BsPlus, BsEyeFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { CartContext } from "../contexts/CartContext";
 
-type ProductType = /*unresolved*/ any
+type ProductType = any;
 
 interface ProductProps {
   product: ProductType;
