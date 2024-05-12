@@ -7,17 +7,11 @@ const UserRouter: RouteObject[] = [
   {
       path: "/",
       element: <Home sort={""} categories={""}/>,
-      // children: [
-      //     {
-      //         path: "/pages/:id",
-      //         // element: </>,
-      //     },
-      // ]
   },
 
   {
     path: "/product/:id",
-    element: <ProductDetails/>
+    element: <ProductDetails sort={""} categories={""}/>
   },
   
 ]
