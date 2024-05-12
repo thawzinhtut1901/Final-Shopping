@@ -14,10 +14,7 @@ const Hero = () => {
           <div className="font-semibold flex items-center uppercase">
             <div className="w-10 h-[2px] bg-slate-300 mr-3"></div>New Trend
             <h1 className="text-[70px] leading-[1.1] font-light my-5 font-serif text-yellow-500">AUTUMN STYLISH <br /> <span className="text-slate-300 font-semibold font-mono mt-5">MEN</span></h1>
-          
 
-          
-           
           </div>
         </div>
       </div>
