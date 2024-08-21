@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from 'react';
 import { BsBag } from 'react-icons/bs';
 import SideBar from './SideBar';
 import { CartContext } from '../contexts/CartContext';
-import { Link } from 'react-router-dom';
+import { Link,  useNavigate } from 'react-router-dom';
 import Logo from '../../public/img//logo.svg'
 
 const Header = () => {
