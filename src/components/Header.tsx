@@ -10,7 +10,7 @@ const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [showSideBar, setShowSideBar] = useState(false);
   const {itemAmount} = useContext(CartContext);
-
+  const navigate = useNavigate();
   
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const Header = () => {
           <BsBag className='text-3xl text-black' />
           <div className='bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center'>{itemAmount}</div>
         </div>
-          
+          <p onClick={() => navigate("/policy")}>Policy</p>
       </div>
       {showSideBar && (
             <SideBar isOpen={showSideBar}  onClose={() => setShowSideBar(false)}/>
