@@ -1,6 +1,6 @@
 import { RouteObject } from "react-router-dom";
 import { Home, ProductDetails } from "../pages";
-
+import TermOfUse from "../pages/Term";
 
 const UserRouter: RouteObject[] = [
     
