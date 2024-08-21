@@ -14,7 +14,7 @@ const UserRouter: RouteObject[] = [
     element: <ProductDetails sort={""} categories={""}/>
   },
     {
-    path: "/policy",
+    path: "/howtcuwork/terms",
     element: <TermOfUse/>
   }
   
