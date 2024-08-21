@@ -13,6 +13,10 @@ const UserRouter: RouteObject[] = [
     path: "/product/:id",
     element: <ProductDetails sort={""} categories={""}/>
   },
+    {
+    path: "/policy",
+    element: <TermOfUse/>
+  }
   
 ]
 
